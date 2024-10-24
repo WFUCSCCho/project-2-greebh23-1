@@ -3,6 +3,7 @@
  * @brief This program creates RemoteWork objects and their attributes.
  * This program also contains the getter methods for all the variables and
  * a compareTo method.
+ * Kaggle: https://www.kaggle.com/datasets/mrsimple07/remote-work-productivity
  * @author Blythe Greene
  * @date: October 24, 2024
  ***********************************************************************/
