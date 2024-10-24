@@ -73,11 +73,11 @@ BST vs. AVL Tree running time (search):
 My BST shuffled, AVL sorted, and AVL shuffled all level off but my BST sorted has more variation to the others as the time gets larger. They are all very close together on my graph. BST shuffled, AVL sorted, and AVL shuffled have a O(log(N)) and BST sorted has a running time of O(N).  
 
 BST vs. AVL Tree running rate (insertion):
-![image](https://github.com/user-attachments/assets/f490c226-d518-4065-bf60-f57fbc5c1d0e)
+![image](https://github.com/user-attachments/assets/49cbf52a-6135-4e19-9d91-9965127e382d)
 For smaller values of N, the running rate has more fluctations. There is more variation when N is smaller number. It levels off at in my graph eventually. Since all four lines level off, the running rate is O(log(N)). My graph would be more accurate with more data. 
 
 BST vs. AVL Tree running rate (search):
-![image](https://github.com/user-attachments/assets/768fb8e0-5ffd-48c4-939d-608afb62f824)
+![image](https://github.com/user-attachments/assets/eaf68e4e-f93c-4f11-adfa-ebba0de94ccc)
 For smaller values of N, the running rate has fluctations. There is more variation when N is a smaller number. The running rate for BST shuffled, AVL sorted, and AVL shuffled is O(log(N)) and the runnign rate for BST sorted is O(N). BST sorted has the largest running rate. Overall, my graph would be more accurate with more data.
 ## Submission:
 
