@@ -65,17 +65,20 @@ Run your program several times for different number of lines of your dataset, N,
 Using your favorite graphing software (e.g., MS Excel or Google Sheets), plot the running time (in seconds) and rate (in seconds per node) vs. N for each case, comparing the BST and AVL Trees (i.e., two lines per graph). Take a screenshot of your graph and put them here by modifying this file, committing, and pushing it to this repository.
 
 BST vs. AVL Tree running time (insertion):
-(insert here)
+![image](https://github.com/user-attachments/assets/ada36893-eac5-4f13-9f2a-49a0e7ad1016)
+There is more variation for smaller N values. My BST sorted has a running time of O(N) and has the largest time from the lines in my graph. My AVL sorted has the next highest time. My AVL sorted, AVL shuffled, and BST shuffled have running times of O(log(N)).
 
 BST vs. AVL Tree running time (search):
-(insert here)
+![image](https://github.com/user-attachments/assets/5a8be972-3b8c-40f1-b5b9-4b5a01881bed)
+My BST shuffled, AVL sorted, and AVL shuffled all level off but my BST sorted has more variation to the others as the time gets larger. They are all very close together on my graph. BST shuffled, AVL sorted, and AVL shuffled have a O(log(N)) and BST sorted has a running time of O(N).  
 
 BST vs. AVL Tree running rate (insertion):
-(insert here)
+![image](https://github.com/user-attachments/assets/49cbf52a-6135-4e19-9d91-9965127e382d)
+For smaller values of N, the running rate has more fluctations. There is more variation when N is smaller number. It levels off at in my graph eventually. Since all four lines level off, the running rate is O(log(N)). My graph would be more accurate with more data. 
 
 BST vs. AVL Tree running rate (search):
-(insert here)
-
+![image](https://github.com/user-attachments/assets/eaf68e4e-f93c-4f11-adfa-ebba0de94ccc)
+For smaller values of N, the running rate has fluctations. There is more variation when N is a smaller number. The running rate for BST shuffled, AVL sorted, and AVL shuffled is O(log(N)) and the runnign rate for BST sorted is O(N). BST sorted has the largest running rate. Overall, my graph would be more accurate with more data.
 ## Submission:
 
 Your project will be developed and graded via GitHub. Your final "push" is your final submission, and it must occur before it is due. On Canvas, enter the url to your Github repository. Your project will not be graded without it.
