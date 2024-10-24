@@ -66,16 +66,20 @@ Using your favorite graphing software (e.g., MS Excel or Google Sheets), plot th
 
 BST vs. AVL Tree running time (insertion):
 (insert here)
+There is more variation for smaller N values. My BST sorted has a running time of O(N) and has the largest time from the lines in my graph. My BST shuffled has the next highest time. My AVL sorted, AVL shuffled, and BST shuffled have running times 
+of O(log(N)). 
 
 BST vs. AVL Tree running time (search):
 (insert here)
+My BST shuffled, AVL sorted, and AVL shuffled all level off but my BST sorted has more variation to the others as the time gets larger. They are all very close together on my graph. BST shuffled, AVL sorted, and AVL shuffled have a O(log(N)) and BST sorted has a running time of O(N).  
 
 BST vs. AVL Tree running rate (insertion):
 (insert here)
+For smaller values of N, the running rate has more fluctations. There is more variation when N is smaller number. It levels off at in my graph eventually. Since all four lines level off, the running rate is O(log(N)). My graph would be more accurate with more data. 
 
 BST vs. AVL Tree running rate (search):
 (insert here)
-
+For smaller values of N, the running rate has fluctations. There is more variation when N is smaller number. The running rate for BST shuffled, AVL sorted, and AVL shuffled is O(log(N)) and the runnign rate for BST sorted is O(N). BST sorted has the largest running rate. Overall, my graph shows how all four start to level off at a large value of N.
 ## Submission:
 
 Your project will be developed and graded via GitHub. Your final "push" is your final submission, and it must occur before it is due. On Canvas, enter the url to your Github repository. Your project will not be graded without it.
