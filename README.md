@@ -66,8 +66,7 @@ Using your favorite graphing software (e.g., MS Excel or Google Sheets), plot th
 
 BST vs. AVL Tree running time (insertion):
 ![image](https://github.com/user-attachments/assets/ada36893-eac5-4f13-9f2a-49a0e7ad1016)
-There is more variation for smaller N values. My BST sorted has a running time of O(N) and has the largest time from the lines in my graph. My BST shuffled has the next highest time. My AVL sorted, AVL shuffled, and BST shuffled have running times 
-of O(log(N)). 
+There is more variation for smaller N values. My BST sorted has a running time of O(N) and has the largest time from the lines in my graph. My AVL sorted has the next highest time. My AVL sorted, AVL shuffled, and BST shuffled have running times of O(log(N)).
 
 BST vs. AVL Tree running time (search):
 ![image](https://github.com/user-attachments/assets/5a8be972-3b8c-40f1-b5b9-4b5a01881bed)
@@ -79,7 +78,7 @@ For smaller values of N, the running rate has more fluctations. There is more va
 
 BST vs. AVL Tree running rate (search):
 ![image](https://github.com/user-attachments/assets/768fb8e0-5ffd-48c4-939d-608afb62f824)
-For smaller values of N, the running rate has fluctations. There is more variation when N is smaller number. The running rate for BST shuffled, AVL sorted, and AVL shuffled is O(log(N)) and the runnign rate for BST sorted is O(N). BST sorted has the largest running rate. Overall, my graph shows how all four start to level off at a large value of N.
+For smaller values of N, the running rate has fluctations. There is more variation when N is a smaller number. The running rate for BST shuffled, AVL sorted, and AVL shuffled is O(log(N)) and the runnign rate for BST sorted is O(N). BST sorted has the largest running rate. Overall, my graph would be more accurate with more data.
 ## Submission:
 
 Your project will be developed and graded via GitHub. Your final "push" is your final submission, and it must occur before it is due. On Canvas, enter the url to your Github repository. Your project will not be graded without it.
